@@ -29,6 +29,8 @@ public class MainActivity extends AppCompatActivity {
         btnNumbers.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, Numbers.class);
+                startActivity(intent);
 
             }
         });

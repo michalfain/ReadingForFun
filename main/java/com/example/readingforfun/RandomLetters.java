@@ -31,7 +31,6 @@ public class RandomLetters extends AppCompatActivity {
     public void randomLetters() {
         ran = new Random();
         ranLet = ran.nextInt(23);
-        ivRandom.setVisibility(View.VISIBLE);
 
         if (ranLet == 1) {
             ivRandom.setImageResource(R.drawable.alef);

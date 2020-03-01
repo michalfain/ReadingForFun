@@ -19,7 +19,9 @@
         <activity android:name=".HebrewLetters" />
         <activity android:name=".ShowLetters" />
         <activity android:name=".RandomLetters" />
-        <activity android:name=".Numbers"></activity>
+        <activity android:name=".Numbers" />
+        <activity android:name=".ShowNumbers" />
+        <activity android:name=".RandomNumbers"></activity>
     </application>
 
 </manifest>
