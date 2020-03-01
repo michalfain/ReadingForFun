@@ -8,7 +8,7 @@ import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
 
-    Button btnGoHebrew;
+    Button btnGoHebrew, btnNumbers;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -16,6 +16,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         btnGoHebrew = findViewById(R.id.btnGoHebrew);
+        btnNumbers = findViewById(R.id.btnNumbers);
 
         btnGoHebrew.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -24,5 +25,13 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        btnNumbers.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+            }
+        });
     }
+
 }

@@ -18,7 +18,8 @@
         </activity>
         <activity android:name=".HebrewLetters" />
         <activity android:name=".ShowLetters" />
-        <activity android:name=".RandomLetters"></activity>
+        <activity android:name=".RandomLetters" />
+        <activity android:name=".Numbers"></activity>
     </application>
 
 </manifest>
